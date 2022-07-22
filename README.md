@@ -16,7 +16,7 @@ The main idea is to handle the [DxTagBox](http://docs.devexpress.devx/Blazor/Dev
     <FilterRowCellTemplate>
         @{
             var items = TagBoxFilterRowUtils.GetValueByFunctionOperator(context.FilterCriteria, nameof(WeatherForecast.Summary));
-        }
+        }   
         <DxTagBox TData="string"
                   TValue="string"
                   Data="Summaries"
