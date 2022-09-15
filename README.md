@@ -5,11 +5,11 @@
 <!-- default badges end -->
 # Grid for Blazor - How to use the DxTagBox control as a filter for a column with multiple values
 
-This example demonstrates how to use the [DxTagBox](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2) control in the [DxGridDataColumn.FilterRowCellTemplate](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxGridDataColumn.FilterRowCellTemplate) to filter the column by multiple values.
+In this example, we use our [DxTagBox](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2) control alongside the DevExpress Blazor Control to filter column data against multiple filter values (DXTagBox is used within the [DxGridDataColumn.FilterRowCellTemplate](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxGridDataColumn.FilterRowCellTemplate)).
 
 ![image](https://user-images.githubusercontent.com/69251191/180018055-298229e1-745b-46b7-984f-592c7d486e1e.png)
 
-The main idea is to handle the [DxTagBox](http://docs.devexpress.devx/Blazor/DevExpress.Blazor.DxTagBox-2) [ValuesChanged](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2.ValuesChanged) event to set the "context.FilterCriteria" to a custom filter criteria. This custom filter criteria is created depending on the selected values of DxTagBox.
+To incorporate this capability in your next Blazor-powered project, you’ll need to handle the [DxTagBox](http://docs.devexpress.devx/Blazor/DevExpress.Blazor.DxTagBox-2) [ValuesChanged](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2.ValuesChanged) event (set `context.FilterCriteria` to custom filter criteria). Custom filter criteria are created based on values selected within the TagBox control.
 
 ```razor
 <DxGridDataColumn FieldName="SummaryString" >
@@ -51,7 +51,7 @@ The main idea is to handle the [DxTagBox](http://docs.devexpress.devx/Blazor/Dev
 ```
 
 
-## Files to Look At
+## Files to Review
 
 * [Index.razor](./CS/DxBlazorApplication1/Pages/Index.razor)
 * [TagBoxFilterRowUtils.cs](./CS/DxBlazorApplication1/TagBoxFilterRowUtils.cs)
