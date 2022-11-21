@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Grid for Blazor - Use the DxTagBox control to filter a column against multiple values
 
-In this example, we use our [DxTagBox](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2) control alongside the DevExpress Blazor Control to filter column data against multiple filter values (DXTagBox is used within the [DxGridDataColumn.FilterRowCellTemplate](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxGridDataColumn.FilterRowCellTemplate)).
+In this example, we use our [DxTagBox](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2) control alongside the DevExpress Blazor Grid component to filter column data against multiple filter values (DXTagBox is used within the [DxGridDataColumn.FilterRowCellTemplate](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxGridDataColumn.FilterRowCellTemplate)).
 
 ![image](https://user-images.githubusercontent.com/69251191/180018055-298229e1-745b-46b7-984f-592c7d486e1e.png)
 
