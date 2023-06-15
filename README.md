@@ -9,7 +9,7 @@ In this example, we use our [DxTagBox](https://docs.devexpress.com/Blazor/DevExp
 
 ![image](image.png)
 
-To incorporate this capability in your next Blazor-powered project, you’ll need to handle the [DxTagBox](http://docs.devexpress.devx/Blazor/DevExpress.Blazor.DxTagBox-2) [ValuesChanged](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2.ValuesChanged) event (set `context.FilterCriteria` to custom filter criteria). Custom filter criteria are created based on values selected within the TagBox control.
+To incorporate this capability in your next Blazor-powered project, you’ll need to handle the [DxTagBox](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2) [ValuesChanged](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTagBox-2.ValuesChanged) event (set `context.FilterCriteria` to custom filter criteria). Custom filter criteria are created based on values selected within the TagBox control.
 
 ```razor
 <DxGridDataColumn FieldName="SummaryString" >
